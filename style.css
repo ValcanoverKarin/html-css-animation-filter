@@ -2,7 +2,15 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    /*esercizio primo quadratino*/
+    transition: background 2s linear ;
 }
+
+/*esercizio primo quadratino*/
+.ex-1-square:hover {
+    background: red;
+}
+
 .ex-2-square {
     width: 100px;
     height: 100px;
