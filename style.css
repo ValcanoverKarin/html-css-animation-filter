@@ -110,10 +110,27 @@
 
 .ex-10-icon {
     font-size: 60px;
+    /*esercizio primo caricamento*/
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
+/*esercizio primo caricamento*/
+@keyframes spin {
+    100% { transform: rotate(-360deg); }
+}
+
 .ex-11-icon {
     font-size: 60px;
+    /*esercizio secondo caricamento*/
+    
 }
+
+/*esercizio secondo caricamento*/
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
