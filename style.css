@@ -97,7 +97,17 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    /*esercizio terza immagine*/
+    transition: 3s;
 }
+
+/*esercizio terza immagine*/
+.ex-9-img:hover {
+    filter: opacity(.6) grayscale(1);
+    border-radius: 30px;
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
