@@ -72,6 +72,19 @@
     width: 500px;
 }
 
+/*esercizio prima immagine*/
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/*esercizio seconda immagine*/
+.ex-7-img {
+    transition: 3s;
+}
+.ex-7-img:hover {
+    filter: invert(1) sepia(0.7)
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
