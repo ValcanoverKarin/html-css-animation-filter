@@ -123,13 +123,20 @@
 }
 
 .ex-11-icon {
-    font-size: 60px;
-    /*esercizio secondo caricamento*/
-    
+    font-size: 60px;    
 }
 
 /*esercizio secondo caricamento*/
-
+.ex-11-icon:hover {
+    animation-name: spin_three-quarters;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+@keyframes spin_three-quarters{
+    70% {
+        transform: rotate(280deg);
+    }
+}
 
 .ex-12-button, .ex-13-button {
     position: relative;
